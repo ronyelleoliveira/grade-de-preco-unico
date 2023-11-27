@@ -1,0 +1,14 @@
+:root {
+    --ciano: hsl(179, 62%, 43%);
+    --ciano-claro: hsl(179, 47%, 54%);
+    --amarelo-vivo: hsl(71, 73%, 54%);
+    --cinza-claro: hsl(204, 43%, 93%);
+    --background: hsl(0, 0%, 100%);
+    --azul-acinzentado: hsl(218, 22%, 67%);
+    --detalhes: hsla(0, 0%, 89%, 0.61);
+    --hover: hsl(71, 66%, 41%);
+}
+
+html {
+    font-size: 62, 5%;
+}

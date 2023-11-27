@@ -1,0 +1,233 @@
+@media (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        max-width: 750px;
+    }
+
+    .card-motivos-de-escolhas p {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media (max-width:680px) {
+
+    .container {
+        width: 100%;
+        max-width: 600px;
+        height: 100%;
+        max-height: 500px;
+
+        display: grid;
+        grid-template-areas: "card-chamada-para-acao card-chamada-para-acao"
+            "preco junte-se-a-nos";
+
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(250px, auto));
+    }
+
+    .card-chamada-para-acao {
+        padding: 20px;
+    }
+
+    .card-chamada-para-acao h1 {
+        font-size: 1.7rem;
+        margin-bottom: 20px;
+    }
+
+    .card-chamada-para-acao h2 {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .card-chamada-para-acao p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-top: 15px;
+    }
+
+    .card-preco {
+        padding: 10px;
+    }
+
+    .card-preco h3 {
+        font-size: 1.5rem;
+        margin: 25px;
+        margin-bottom: 5px;
+    }
+
+    .card-preco h4 {
+        font-size: 2rem;
+        margin-bottom: 0px;
+    }
+
+    .card-preco h4 span {
+        font-size: 1rem;
+    }
+
+    .preco {
+        font-size: 0.8rem;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .card-preco .btn {
+        width: 200px;
+        height: 40px;
+        margin: 12px;
+        margin-left: 30px;
+    }
+
+    .card-motivos-de-escolhas h3 {
+        font-size: 1.4rem;
+        margin: 10px;
+        margin-bottom: 15px;
+    }
+
+    .card-motivos-de-escolhas p {
+        font-size: 1rem;
+        margin: 10px;
+        margin-top: 1px;
+        margin-bottom: 5px;
+        line-height: 1.2rem;
+    }
+}
+
+@media (max-width:590px) {
+    .card-motivos-de-escolhas p {
+        font-size: 0.8rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 1rem;
+    }
+}
+
+@media (max-width:568px) {
+    .container {
+        width: 100%;
+        max-width: 300px;
+        height: 100%;
+        max-height: 700px;
+
+        display: grid;
+        grid-template-areas: "card-chamada-para-acao "
+            "preco"
+            "junte-se-a-nos";
+
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(auto-fit, minmax(200px, auto));
+    }
+
+
+    .card-chamada-para-acao {
+        padding: 10px;
+    }
+
+    .card-chamada-para-acao h1 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .card-chamada-para-acao h2 {
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+
+    .card-chamada-para-acao p {
+        font-size: 0.9rem;
+        line-height: 1rem;
+        margin-top: 5px;
+    }
+
+    .card-preco {
+        padding: 10px;
+        border-bottom-left-radius: 0px
+    }
+
+    .card-preco h3 {
+        font-size: 1.5rem;
+        margin: 10px;
+        margin-bottom: 5px;
+    }
+
+    .card-preco h4 {
+        font-size: 2rem;
+        margin: 10px;
+        margin-bottom: 0px;
+    }
+
+    .card-preco h4 span {
+        font-size: 1rem;
+    }
+
+    .preco {
+        font-size: 0.9rem;
+        margin: 10px;
+        margin-bottom: 35px;
+    }
+
+    .card-preco .btn {
+        width: 230px;
+        height: 50px;
+        margin: 10px;
+        margin-left: 25px;
+    }
+
+    .card-motivos-de-escolhas {
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 10px;
+    }
+
+    .card-motivos-de-escolhas h3 {
+        font-size: 1.5rem;
+        margin: 10px;
+        margin-bottom: 5px;
+    }
+
+    .card-motivos-de-escolhas p {
+        font-size: 1rem;
+        margin: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        line-height: 1.2rem;
+        margin-right: 90px;
+    }
+}
+
+@media (max-width:360px) {
+    .container {
+        width: 100%;
+        max-width: 290px;
+        height: 100%;
+        max-height: 600px;
+        
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(auto-fit, minmax(200px, auto));
+    }
+
+    .preco {
+        margin-bottom: 8px;
+    }
+
+    .card-preco .btn {
+        width: 230px;
+        height: 40px;
+        margin: 10px;
+        margin-left: 25px;
+    }
+
+    .card-motivos-de-escolhas h3 {
+        font-size: 1.3rem;
+        margin: 10px;
+        margin-bottom: 5px;
+    }
+
+    .card-motivos-de-escolhas p {
+        font-size: 1rem;
+        margin-top: 5px;
+        line-height: 1.1rem;
+        margin-right: 40px;
+    }
+}

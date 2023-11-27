@@ -1,0 +1,147 @@
+body {
+    background-color: var(--cinza-claro);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    max-width: 1240px;
+    height: 100%;
+    max-height: 1000vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    max-height: 600px;
+
+    display: grid;
+    grid-template-areas: "card-chamada-para-acao card-chamada-para-acao"
+        "preco junte-se-a-nos";
+
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(280px, auto));
+
+    box-shadow: 5px 8px 8px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.card-chamada-para-acao {
+    grid-area: card-chamada-para-acao;
+    background-color: var(--background);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 25px;
+}
+
+.card-chamada-para-acao h1 {
+    color: var(--ciano);
+    font-size: 1.8rem;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+.card-chamada-para-acao h2 {
+    color: var(--amarelo-vivo);
+    font-size: 1.3rem;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+.card-chamada-para-acao p {
+    color: var(--azul-acinzentado);
+    font-size: 1rem;
+    margin: 10px;
+    line-height: 1.8rem;
+}
+
+.card-preco {
+    grid-area: preco;
+    background-color: var(--ciano);
+    border-bottom-left-radius: 10px;
+    padding: 15px;
+    color: var(--background);
+}
+
+.card-preco h3 {
+    font-size: 1.8rem;
+    margin: 25px;
+    margin-bottom: 15px;
+}
+
+.card-preco h4 {
+    font-size: 2.5rem;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 25px;
+    margin-bottom: 0px;
+}
+
+.card-preco h4 span {
+    font-size: 1.2rem;
+    color: var(--detalhes);
+    font-weight: 300;
+}
+
+.preco {
+    font-size: 1rem;
+    margin: 25px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    color: var(--detalhes);
+    font-weight: 300;
+}
+
+.card-preco .btn {
+    background-color: var(--amarelo-vivo);
+    width: 300px;
+    height: 50px;
+    border-radius: 7px;
+    margin: 27px;
+    margin-top: 35px;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card-preco .btn:hover {
+    background-color: var(--hover);
+}
+
+.card-preco .btn a {
+    color: var(--background);
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.card-motivos-de-escolhas {
+    grid-area: junte-se-a-nos;
+    background-color: var(--ciano-claro);
+    border-bottom-right-radius: 10px;
+    padding: 25px;
+}
+
+.card-motivos-de-escolhas h3 {
+    font-size: 1.8rem;
+    margin: 10px;
+    margin-bottom: 15px;
+    color: var(--background);
+
+}
+
+.card-motivos-de-escolhas p {
+    font-size: 1rem;
+    margin: 10px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    color: var(--detalhes);
+    font-weight: 300;
+    line-height: 2rem;
+}
